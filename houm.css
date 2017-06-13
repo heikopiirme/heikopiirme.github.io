@@ -42,7 +42,7 @@ body {
 
 .colorgame {
   white-space: nowrap;
-  display: inline-block;
+  display: block;
   width: 100%;
   height: auto;
 }
