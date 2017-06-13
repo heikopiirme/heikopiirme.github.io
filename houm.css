@@ -34,10 +34,11 @@ body {
 }
 
 .colorgameslot {
-	white-space: nowrap;
+	white-space: normal;
 	position: relative;
 	display: inline-block;
 	width: 50%;
+	vertical-align: top;
 }
 
 .colorgame {
