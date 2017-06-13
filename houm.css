@@ -15,6 +15,7 @@ body {
 	color: black;
 	margin-top: 50px;
 	background-color: #232323;
+	white-space: nowrap;
 }
 
 .row div {
@@ -33,12 +34,15 @@ body {
 }
 
 .colorgameslot {
+	white-space: nowrap;
 	position: relative;
+	display: inline-block;
 	width: 50%;
 }
 
 .colorgame {
-  display: block;
+  white-space: nowrap;
+  display: inline-block;
   width: 100%;
   height: auto;
 }
