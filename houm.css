@@ -20,29 +20,13 @@ body {
 
 .row div {
 	text-align: center;
-	margin-top: 2%;
+	white-space: nowrap;
+	margin: 0;
+	padding: 0;
 }
 
-#showcase h1{
-	font-family: Lato;
-	color: #464647;
-}
 
-.container {
-	padding-right: 40px;
-	padding-left: 40px;
-}
-
-.colorgameslot {
-	white-space: normal;
-	position: relative;
-	display: inline-block;
-	width: 50%;
-	vertical-align: top;
-}
-
-.colorgame {
-  white-space: nowrap;
+.image {
   display: block;
   width: 100%;
   height: auto;
@@ -50,32 +34,32 @@ body {
 
 .overlay {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  bottom: 100%;
   left: 0;
   right: 0;
-  opacity: 0;
+  background-color: #008CBA;
   overflow: hidden;
   width: 100%;
-  height: 0;
+  height:0;
   transition: .5s ease;
-  background-color: steelblue;
 }
 
-.colorgameslot:hover .overlay {
+.itemslot:hover .overlay {
   bottom: 0;
   height: 100%;
   opacity: 0.85;
 }
 
-h3 {
+.text a {
+  white-space: nowrap; 
   color: white;
-  font-size: 32px;
-  font-family: Lato;
-  font-weight: 400;
+  font-size: 20px;
   position: absolute;
+  text-decoration: none;
+  overflow: hidden;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
