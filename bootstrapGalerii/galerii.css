@@ -3,8 +3,28 @@ body {
 }
 
 .jumbotron {
-	color: #2c3e50;
+	color: #fff;
 	background: #ecf0f1;
+	background-image: url(https://source.unsplash.com/WP0WZ28lTUE);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid black;
+	text-align: center;
+}
+
+h1, p {
+    color: #fff;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+			     0px 8px 13px rgba(0,0,0,0.4),
+			     0px 18px 23px rgba(0,0,0,0.4),
+			     -1px 0 black,
+			     0 1px black,
+			     1px 0 black,
+			     0 -1px black;
+}
+
+.jumbotron p {
+	font-size: 25px;
 }
 
 .navbar-inverse {
