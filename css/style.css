@@ -45,7 +45,7 @@ body {
 }
 
 .siniVahe {
-    height: 3px;
+    height: 2px;
     background: #37abc8;
 }
 
@@ -80,14 +80,19 @@ body {
 }
 
 .oskus {
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px;
     height: 230px;
     background: #fcfcfc;
     margin: auto;
+    box-shadow: 0px 0px 50px rgba(40, 40, 40, 1);
 }
 
-.oskus i {
-    padding-top: 10px;
+.oskus h2 {
+	font-weight: 300;
+}
+
+.oskus .siniVahe {
+    margin-bottom: 18px;
 }
 
 .tahed {
@@ -96,6 +101,7 @@ body {
 
 .portfoolio {
     margin-top: 20px;
+    box-shadow: 0px 0px 50px rgba(40, 40, 40, 1);
 }
 
 .portfoolio h1 {
