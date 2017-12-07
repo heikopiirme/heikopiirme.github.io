@@ -1,0 +1,119 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../img/taust.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.parallaxKaks {
+    /* The image used */
+    background-image: url('../img/taustkaks.png');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}
+
+#logo {
+    max-width: 50%;
+    margin-top: 15%;
+}
+
+.siniVahe {
+    height: 3px;
+    background: #37abc8;
+}
+
+.sisu hr {
+    width: 30%;
+}
+
+.sisu {
+    text-align: center;
+    background: #fcfcfc;
+}
+
+.sisu h1 {
+    padding-top: 20px;
+    margin: 0;
+    color: #161616;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+.sisu p {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 1.4em;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.oskused {
+    padding-top: 20px;
+}
+
+.oskus {
+    border-radius: 0px 0px 10px 10px;
+    height: 230px;
+    background: #fcfcfc;
+    margin: auto;
+}
+
+.oskus i {
+    padding-top: 10px;
+}
+
+.tahed {
+    color: #37abc8;
+}
+
+.portfoolio {
+    margin-top: 20px;
+}
+
+.portfoolio h1 {
+    font-weight: 300;
+}
+
+
+.leht {
+    background: #fcfcfc;
+    height: 190px;
+    padding-top: 70px;
+}
+
+.uks {
+    background: #ededed;
+}
+
+.kaks {
+    background: #dbdbdb;
+}
+
