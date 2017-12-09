@@ -16,7 +16,7 @@
 	</div>
 	<div class="siniVahe"></div>
 	<div class="sisu">
-		<h1>Hi, I'm Heiko!</h1>
+		<h1><span class="tkst">Hi, I'm Heiko!</span></h1>
 		<hr>
 		<p>My name is Heiko Piirme. I am 20 years old and I am studying at Tartu Vocational Education Centre to become a web developer.</p>
 	</div>
@@ -89,7 +89,7 @@
 
 
 	<script>
-    window.sr = ScrollReveal();
+	window.sr = ScrollReveal({ reset: true });
     sr.reveal("#logo", {
       duration: 1500,
       origin: "left"
@@ -99,6 +99,12 @@
       duration: 1500,
       origin: "bottom"
     })
+
+    sr.reveal(".leht", {
+      duration: 300,
+      origin: "top"
+    })
+
   </script>
 </body>
 </html>
