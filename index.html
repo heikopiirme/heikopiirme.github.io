@@ -18,7 +18,7 @@
 	<div class="sisu">
 		<h1><span class="tkst">Hi, I'm Heiko!</span></h1>
 		<hr>
-		<p>My name is Heiko Piirme. I am 20 years old and I am studying at Tartu Vocational Education Centre to become a web developer.</p>
+		<p class="tkstKaks">My name is Heiko Piirme. I am 20 years old and I am studying at Tartu Vocational Education Centre to become a web developer.</p>
 	</div>
 	<div class="parallaxKaks">
 	<div class="oskused container">
@@ -103,6 +103,16 @@
     sr.reveal(".leht", {
       duration: 300,
       origin: "top"
+    })
+
+    sr.reveal("h1", {
+      duration: 900,
+      origin: "right"
+    })
+
+    sr.reveal(".tkstKaks", {
+      duration: 900,
+      origin: "left"
     })
 
   </script>
