@@ -1,0 +1,162 @@
+.navbar-dark .navbar-nav .nav-link {
+	color: #FFF;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+	background-color: #16253d;
+	border-radius: 5px;
+}
+
+.bg-dark {
+	background-color: #28426b!important;
+}
+
+.btn-outline-success {
+	color: #FFF;
+	border-color: #848484;
+	background-color: #848484;
+}
+
+.keskel {
+	text-align: center;
+}
+
+.keskel h1 {
+	font-size: 4em;
+}
+
+.jumbotron {
+	margin-top: 70px;
+	padding-top: 40px;
+}
+
+.ring {
+	border-radius: 50%;
+	width: 300px;
+}
+
+.jumbotekst {
+	padding-top: 40px;
+}
+
+.nupp {
+	background-color: #28426b;
+	color: #FFF;
+	width: 100%;
+	padding-top: 15px;
+	margin-top: 2px;
+}
+
+.loom {
+	text-align: center;
+	font-size: 14px;
+}
+
+.loom img {
+	height: 85px;
+}
+
+.jalus {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.kontaktparem {
+	color: #FFF;
+	padding-top: 10px;
+}
+
+.kontaktvasak {
+	color: #FFF;
+	padding-top: 10px;
+}
+
+.kontaktparem p{
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+
+.kontaktvasak p{
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+
+.kontaktkeskel {
+	color: #FFF;
+	text-align: center;
+	padding-top: 45px;
+}
+
+.content {
+	margin-top: 70px;
+}
+
+.kirj {
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.kirj img {
+	height: 100px;
+}
+
+.tootajad {
+	margin-bottom: 50px;
+}
+
+label {
+	text-align: right;
+	font-weight: 600;
+}
+
+.elukoht {
+	text-align: right;
+	font-weight: 600;
+}
+
+form-check {
+	font-weight: 400;
+}
+
+.ahv {
+	text-align: center;
+	padding-top: 70px;
+}
+
+.galerii {
+	margin: 0 auto;
+	border: 2px solid #dddddd;
+}
+
+.galerii img {
+	width: 250px;
+}
+
+.tartu {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.info p {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+
+.info2 {
+	text-align: right;
+}
+
+.info2 p {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
