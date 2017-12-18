@@ -156,7 +156,7 @@ body {
 
 @media screen and (max-width: 500px) {
   #logo {
-    padding-top: 50%;
+    padding-top: 70%;
     max-width: 80%;
     margin-left: 10px;
   }
@@ -184,6 +184,37 @@ body {
 @media screen and (max-width: 768px) {
   #logo {
     padding-top: 50%;
+    max-width: 80%;
+    margin-left: 10px;
+  }
+
+  .oskus {
+    max-width: 70%;
+    margin-bottom: 25px;
+  }
+
+  .tkst {
+   font-size: 3rem;
+  }
+
+  .sisu p {
+    font-size: 1em;
+    padding: 0px 15px;
+    padding-bottom: 20px;
+  }
+
+  body, html {
+    min-height: 100%;
+  }
+
+  .jalus p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  #logo {
+    padding-top: 70%;
     max-width: 80%;
     margin-left: 10px;
   }
