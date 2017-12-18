@@ -156,8 +156,8 @@ body {
 
 @media screen and (max-width: 1440px) {
   #logo {
-    padding-top: 30%;
-    max-width: 80%;
+    padding-top: 25%;
+    max-width: 30%;
     margin-left: 10px;
   }
 
@@ -187,7 +187,7 @@ body {
 
 @media screen and (max-width: 768px) {
   #logo {
-    padding-top: 30%;
+    padding-top: 50%;
     max-width: 80%;
     margin-left: 10px;
   }
@@ -219,7 +219,7 @@ body {
 
 @media screen and (max-width: 500px) {
   #logo {
-    padding-top: 90%;
+    padding-top: 70%;
     max-width: 80%;
     margin-left: 10px;
   }
