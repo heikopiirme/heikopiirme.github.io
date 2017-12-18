@@ -178,5 +178,9 @@ body {
 
   body, html {
     min-height: 100%;
-}
+  }
+  
+  .copy p {
+    font-size: 12px;
+  }
 }
