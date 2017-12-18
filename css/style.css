@@ -154,9 +154,9 @@ body {
     background: #37abc8;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1440px) {
   #logo {
-    padding-top: 90%;
+    padding-top: 30%;
     max-width: 80%;
     margin-left: 10px;
   }
@@ -178,7 +178,11 @@ body {
 
   body, html {
     min-height: 100%;
-}
+  }
+
+  .jalus p{
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -212,9 +216,10 @@ body {
   }
 }
 
-@media screen and (max-width: 1440px) {
+
+@media screen and (max-width: 500px) {
   #logo {
-    padding-top: 30%;
+    padding-top: 90%;
     max-width: 80%;
     margin-left: 10px;
   }
@@ -236,9 +241,8 @@ body {
 
   body, html {
     min-height: 100%;
-  }
-
-  .jalus p{
-    font-size: 12px;
-  }
 }
+}
+
+
+
