@@ -212,7 +212,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1440px) {
   #logo {
     padding-top: 70%;
     max-width: 80%;
