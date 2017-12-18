@@ -61,6 +61,7 @@ body {
     border-radius: 10px;
     height: 250px;
     background: #fcfcfc;
+    width: 80%;
     margin: auto;
     box-shadow: 0px 0px 50px rgba(40, 40, 40, 1);
     text-align: center;
@@ -151,4 +152,27 @@ body {
 .copy .siniVahe {
 	height: 1px;
     background: #37abc8;
+}
+
+@media screen and (max-width: 1024px) {
+  #logo {
+    padding-top: 50%;
+    max-width: 80%;
+    margin-left: 10px;
+  }
+
+  .oskus {
+    max-width: 80%;
+    margin-bottom: 25px;
+  }
+
+  .tkst {
+   font-size: 3rem;
+  }
+
+  .sisu p {
+    font-size: 1em;
+    padding: 0px 15px;
+    padding-bottom: 20px;
+  }
 }
